@@ -1,0 +1,21 @@
+#container {
+  display: flex; /* Flex-Container aktivieren */
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: #000;
+}
+
+#a {
+  background: orange;
+}
+
+#b {
+  background: magenta;
+}
+
+#c {
+  background: cyan;
+}
