@@ -3,7 +3,7 @@
   display: flex; /* Flex-Container aktivieren */
   flex-direction: row; /* Verlauf Hauptachse */
   justify-content: flex-start; /* Anordnung auf der Hauptachse */
-  align-items: baseline; /* Anordnung auf der Querachse */
+  align-items: flex-start; /* Anordnung auf der Querachse */
   /* flex-direction: row | column | row-reverse | column-reverse */
   /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly */
   /* align-items: stretch | flex-start | flex-end | center | baseline */

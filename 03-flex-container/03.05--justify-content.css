@@ -3,15 +3,6 @@
   flex-direction: row; /* Verlauf Hauptachse */
 }
 
-#container {
-  height: 100vh;
-  display: flex; /* Flex-Container aktivieren */
-  flex-direction: column; /* Verlauf Hauptachse */
-  justify-content: flex-start; /* Anordnung auf der Hauptachse */
-  /* flex-direction: row | column | row-reverse | column-reverse */
-  /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly */
-}
-
 .box {
   height: 100px;
   width: 100px;
