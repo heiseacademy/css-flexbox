@@ -2,7 +2,7 @@
   height: 100vh;
   display: flex; /* Flex-Container aktivieren */
   flex-direction: row; /* Verlauf Hauptachse */
-  justify-content: space-around; /* Anordnung auf der Hauptachse */
+  justify-content: flex-start; /* Anordnung auf der Hauptachse */
   align-items: center; /* Anordnung auf der Querachse */
 
   /* flex-direction: row | column | row-reverse | column-reverse */
