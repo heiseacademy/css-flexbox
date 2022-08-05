@@ -1,0 +1,50 @@
+#container {
+  height: 100vh;
+  width: 250px;
+  display: flex; /* Flex-Container aktivieren */
+  flex-direction: row; /* Verlauf Hauptachse */
+  justify-content: flex-start; /* Anordnung auf der Hauptachse */
+  align-items: center; /* Anordnung auf der Querachse */
+  flex-wrap: wrap; /* Zeilenumbrüche auf der Hauptachse */
+  /* flex-flow: row wrap (Kombination aus flex-direction und flex-wrap) */
+  align-content: center; /* Zeilenabstand auf der Querachse in mehrzeiligen Flex-Containern! */
+  row-gap: 5px; /* Vertikaler Abstand zwischen Items */
+  column-gap: 20px; /* Horizontaler Abstand zwischen Items */
+  /* gap: 5px 10px; (Kombination aus row-gap und column-gap) */
+
+  /* flex-direction: row | column | row-reverse | column-reverse */
+  /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly */
+  /* align-items: stretch | flex-start | flex-end | center | baseline */
+  /* flex-wrap: nowrap | wrap | wrap-reverse */
+  /* flex-flow: flex-direction flex-wrap (Kombination)*/
+  /* align-content: stretch | flex-start | flex-end | center | space-between | space-around | space-evenly */
+  /* row-gap: Länge /* Vertikaler Abstand zwischen Items */
+  /* column-gap: Länge /* Horizontaler Abstand zwischen Items */
+  /* gap: row-gap column-gap (Kombination) */
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: #000;
+}
+
+#a {
+  background: orange;
+}
+
+#b {
+  background: magenta;
+}
+
+#c {
+  background: cyan;
+}
+
+#d {
+  background: red;
+}
+
+#e {
+  background: blue;
+}
