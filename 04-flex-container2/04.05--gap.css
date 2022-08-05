@@ -7,7 +7,7 @@
   align-items: center; /* Anordnung auf der Querachse */
   flex-wrap: wrap; /* Zeilenumbrüche auf der Hauptachse */
   /* flex-flow: row wrap (Kombination aus flex-direction und flex-wrap) */
-  align-content: space-evenly; /* Zeilenabstand auf der Querachse */
+  align-content: space-evenly; /* Zeilenabstand auf der Querachse in mehrzeiligen Flex-Containern! */
 
   /* flex-direction: row | column | row-reverse | column-reverse */
   /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly */
