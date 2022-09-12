@@ -1,0 +1,72 @@
+#container {
+  height: 100vh;
+  display: flex; /* Flex-Container aktivieren */
+  flex-direction: row; /* Verlauf Hauptachse */
+  justify-content: flex-start; /* Anordnung auf der Hauptachse */
+  align-items: center; /* Anordnung auf der Querachse */
+  /* flex-wrap: wrap; Zeilenumbrüche auf der Hauptachse */
+  /* flex-flow: row wrap (Kombination aus flex-direction und flex-wrap) */
+  /* align-content: center; Zeilenabstand auf der Querachse in mehrzeiligen Flex-Containern! */
+  /* row-gap: 5px; Vertikaler Abstand zwischen Items */
+  /* column-gap: 20px; Horizontaler Abstand zwischen Items */
+  /* gap: 5px 10px; (Kombination aus row-gap und column-gap) */
+
+  /* FlexBox-Eigenschaften des Flex-Containers */
+  /* flex-direction: row | column | row-reverse | column-reverse */
+  /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly */
+  /* align-items: stretch | flex-start | flex-end | center | baseline */
+  /* flex-wrap: nowrap | wrap | wrap-reverse */
+  /* flex-flow: flex-direction flex-wrap (Kombination)*/
+  /* align-content: stretch | flex-start | flex-end | center | space-between | space-around | space-evenly */
+  /* row-gap: Länge /* Vertikaler Abstand zwischen Items */
+  /* column-gap: Länge /* Horizontaler Abstand zwischen Items */
+  /* gap: row-gap column-gap (Kombination) */
+}
+
+.box {
+  height: 100px;
+  width: 150px;
+  background: #000;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FlexBox-Eigenschaften der Flex-Items (Inhalte des Flex-Containers) */
+/* order: Zahl; (Default-Wert: 0)*/
+/* align-self: auto (Default) | und alle Werte von align-items */
+/* flex-grow: Zahl; (Zahl >= 0, Default-Wert: 0) */
+/* flex-shrink: Zahl; (Zahl >= 0, Default-Wert: 1 für gleichmäßiges Schrumpfen, 0 für keine Schrumpfung) */
+/* flex-basis: auto (Default) | content | Wert für Größe (in px, em, %, ... --> 0 setzt zurück) */
+/* flex: flex-grow flex-shrink flex-basis (Kombination) */
+/* (Default) flex: initial; ==> flex: 0 1 auto; */
+/* flex: auto; ==> flex: 1 1 auto; */
+/* flex: none; ==> flex: 0 0 auto; */
+/* flex: 1; ==> flex: 1 1 0; */
+
+#a {
+  background: orange;
+  /* order: 4; legt Platz in Reihenfolge der Items fest  */
+  /* align-self: flex-end; überschreibt align-items (aus dem Flex-Container)*/
+  /* flex-grow: 1; Größenverhältnis für Ausdehnung eines Items auf der Hauptachse, wenn zusätzlicher Platz vorhanden ist */
+  /* flex-shrink: 2; Größenverhältnis für Schrumpfung eines Items auf der Hauptachse, wenn zu wenig Platz vorhanden ist */
+  /* flex-basis: 100px; Ausgangsgröße eines Items auf der Hauptachse */
+  flex: 0 1 auto; /* Kombination aus flex-grow, flex-shrink und flex-basis  */
+}
+
+#b {
+  background: magenta;
+}
+
+#c {
+  background: cyan;
+}
+
+#d {
+  background: red;
+}
+
+#e {
+  background: blue;
+}
