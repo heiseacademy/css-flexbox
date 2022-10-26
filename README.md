@@ -1,7 +1,6 @@
 # CSS Flexbox
 
-Dieses Repository enthält den Beispiel-Code für den heiseacademy-Kurs „
-CSS Flexbox“ von [Erik Behrends](https://behrends.io).
+Dieses Repository enthält den Beispiel-Code für den heiseacademy-Kurs „CSS Flexbox“ von [Erik Behrends](https://behrends.io).
 
 Zu jedem Kapitel im Kurs gibt es ein Verzeichnis, welches für jede Lektion eine Datei mit dem Beispiel-Code enthält.
 
