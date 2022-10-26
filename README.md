@@ -22,7 +22,7 @@ Lerne alle Konzepte und Eigenschaften der CSS Flexbox, um vielseitige Layouts f�
 - Du lernst grundlegende Konzepte der Flexbox wie den Flex-Container und die Flex-Items
 - Du verstehst den Aufbau eines Flex-Containers mit Haupt- und Querachse
 - Du weißt, wie Du vorgehen musst, um schrittweise ein Flexbox-Layout zu erstellen 
-- Du erfährst den Umgang mit wichtigen Eigenschaften wie flex-direction, justify-content und align-items
+- Du erfährst den Umgang mit wichtigen Eigenschaften wie `flex-direction`, `justify-content` und `align-items`
 - Du siehst, welche weiteren CSS-Eigenschaften Dir im Flexbox-Layout zur Verfügung stehen
 
 Bei der Gestaltung mit CSS ist das Flexbox-Layout nicht mehr wegzudenken. Mit Flexbox steht Dir ein umfangreicher und vielseitiger Ansatz zur Verfügung, um mit CSS ein responsives Layout zu erhalten. Flexbox ist ein eigenständiger Teil von CSS, der auf bestimmten Konzepten und einer Reihe von CSS-Eigenschaften basiert. Diese möchte ich Dir in diesem Kurs schrittweise vorstellen und im Detail erläutern. 
